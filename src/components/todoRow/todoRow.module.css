@@ -1,0 +1,23 @@
+.todoRow {
+    cursor: pointer;
+    border-left: 12px solid transparent;
+    transition: 0.2s;
+}
+
+.todoRow:hover {
+    background-color: var(--color-hover);
+    border-left: 12px solid var(--color-dark-grey);
+}
+
+.todoRow:hover td:last-child{
+    opacity: 1;
+}
+
+.todoRow td {
+    padding: 8px;
+}
+
+.todoRow td:last-child {
+    opacity: 0;
+    transition: 0.2s;
+}

@@ -1,0 +1,29 @@
+.switch {
+    width: 60px;
+    height: 30px;    
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+    background-color: var(--color-light-grey);
+}
+
+.switch::after {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 4px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 5px 0px var(--color-black);
+    transition: left 0.5s;
+}
+
+.active::after  {
+    background-color: var(--color-white);
+    left: 35px;
+}
+
+.disactive::after {
+    background-color: var(--color-dark-grey);
+    left: 3px;
+}

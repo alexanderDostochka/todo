@@ -1,0 +1,20 @@
+.todolist {
+    padding-top: 20px;
+}
+
+.table {
+    width: 100%;
+    border:none;
+    border-collapse: collapse;
+    border-radius: 4px;
+}
+
+.table th {
+    padding: 20px 10px;
+    text-align: start;
+}
+
+.title {
+    margin-bottom: 40px;
+    text-align: center;
+}
