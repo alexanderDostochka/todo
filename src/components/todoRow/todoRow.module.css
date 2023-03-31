@@ -21,3 +21,18 @@
     opacity: 0;
     transition: 0.2s;
 }
+
+.input {
+    background-color: transparent;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 5px 0px;
+    border: none;
+    border-bottom: 1px solid transparent;
+    outline: none;
+}
+
+.input:focus {
+    border-bottom: 1px solid var(--color-black);
+}

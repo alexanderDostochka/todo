@@ -21,7 +21,8 @@ const Todolist = () => {
                 Name
             </th>
             <th>
-                
+                <button>+</button>
+                <button>x</button>
             </th>
         </tr>
         <TodoRow isActive={false} name="Test Works" id={10} />
