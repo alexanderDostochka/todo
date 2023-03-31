@@ -1,3 +1,9 @@
 {
-    "title": "Todolist"
+    "title": "Todolist",
+    "status": "Статус",
+    "product": "Продукт",
+    "name": "Назва",
+    "id": "ID",
+    "isEmpty": "Todolist is empty",
+    "deleteQuestion": "Are you sure you want to delete todo ?"
 }

@@ -10,11 +10,21 @@
 }
 
 .table th {
-    padding: 20px 8px;
+    padding: 10px 8px;
     text-align: start;
+}
+
+.table th:last-child {
+    display: flex;
+    justify-content: center;
 }
 
 .title {
     margin-bottom: 40px;
+    text-align: center;
+}
+
+.empty {
+    padding: 8px;
     text-align: center;
 }
